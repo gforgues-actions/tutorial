@@ -1,0 +1,62 @@
+.header {
+    height: rem(80px);
+    margin-bottom: rem(10px);
+    background-color: var(--mantine-color-header-5);
+    border-bottom: rem(1px) solid var(--mantine-color-gray-3);
+}
+
+
+.inner {
+    height: rem(80px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: rem(50px);
+}
+
+.left {
+   margin-right: auto;
+}
+
+.titleLogo {
+    font-family: 'Caveat', cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: rem(40px);
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--mantine-color-header-1);
+    text-decoration: none;
+}
+
+
+
+
+
+.link {
+    display: block;
+    line-height: 1;
+    padding: rem(25px) rem(35px);
+    border-radius: var(--mantine-radius-sm);
+    text-decoration: none;
+    color: var(--mantine-color-header-1);
+    font-size: var(--mantine-font-size-xl);
+    font-weight: 500;
+
+
+    @mixin hover
+    {
+        background-color: var(--mantine-color-header-1);
+        color: var(--mantine-color-header-6);
+    }
+}
+
+link.active {
+    background-color: var(--mantine-color-header-1);
+    color: var(--mantine-color-header-6);
+}
+
+.mantine-Drawer-Root {
+    background-color: var(--mantine-color-header-5);
+}

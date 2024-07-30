@@ -1,0 +1,8 @@
+.reference {
+    font-size:  var(--mantine-font-size-md);
+    font-weight: bolder;
+    color: var(--mantine-color-header-5);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--mantine-color-header-8);
+}

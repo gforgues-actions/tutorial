@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Audrey",
+    "title": "La féministe créative et théâtrale des SexMaitresses!",
+    "primaryDescription": "Après avoir rédigée son mémoire de maîtrise sur l'agressivité relationnelle entre femmes (ou... la culture du bitchage), elle pose des analyses sociales avec ses « lunettes » féministes.",
+    "secondaryDescription": "Ne vous fiez pas à sa voix douce ou sa petite stature, car ses propos en ont dedans! Passionnée de l'éducation à la sexualité, elle souhaite transmettre les valeurs qui lui tiennent à coeur. Dans le podcast, elle ose poser les questions qui nous permettent d'apporter des nuances.",
+    "image": "audrey.jpg"
+  },
+  {
+    "name": "Sarah",
+    "title": "L'organisatrice et reine de l'efficacité des SexMaitresses!",
+    "primaryDescription": "Elle est passionnée de la recherche, en particulier sur des sujets qui touchent à l'autonomie reproductive. Elle a d'ailleurs rédigé son mémoire de maîtrise sur l'autonomie reproductive des femmes à Mumbai.",
+    "secondaryDescription": "L’humour noir et le sarcasme sont dans ses manières privilégiées de communiquer. Dans le podcast, grâce à son esprit tourné vers la rationalité, elle nous pousse à considérer les aspects concrets et tangibles des concepts avec lesquels on jongle.",
+    "image": "sarah.jpg"
+  },
+  {
+    "name": "Valérie",
+    "title": "La fonceuse au coeur tendre des SexMaitresses!",
+    "primaryDescription": "Elle a une trousse infinie d'idées, n'a pas peur de les partager ni de les défendre. Après avoir rédigé son mémoire de maîtrise sur la masturbation féminine et la santé sexuelle, démystifier et normaliser ce sujet est sa spécialité",
+    "secondaryDescription": "Passionnée par les analyses poussées et ce, sur tous les sujets qui existent, ses apports théoriques féministes et son franc-parler nous permettent d'approfondir davantage nos réflexions lors du podcast",
+    "image": "valerie.jpg"
+  }
+]
