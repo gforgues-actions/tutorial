@@ -1,9 +1,21 @@
 name: First Workflow
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 jobs:
-  first-job:
+  build-react:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello World"
-        
+      - name: Get code
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-files
+          path: dist
