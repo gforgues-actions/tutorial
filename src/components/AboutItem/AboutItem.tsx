@@ -1,4 +1,4 @@
-import {Avatar, Group, Text, Title} from "@mantine/core";
+import {Avatar, Container, Group, Text, Title} from "@mantine/core";
 import About from "../../dto/About.ts";
 
 function AboutItem({about, imageOnRight = false}: { about: About, imageOnRight?:boolean }) {
@@ -35,12 +35,12 @@ function AboutItem({about, imageOnRight = false}: { about: About, imageOnRight?:
     );
 
     return (
-        <div>
+        <Container>
             <Group wrap="nowrap">
                 {imageOnRight ? [imageDiv, textDiv]: [textDiv, imageDiv]}
 
             </Group>
-        </div>
+        </Container>
     );
 }
 
